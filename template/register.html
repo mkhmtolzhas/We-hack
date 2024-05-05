@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/style/register.css">
+    <link rel="icon" href="./icons/airplane-outline.svg" type="image/x-icon">
+    <title>Gowey.</title>
+</head>
+<body>
+    <section id = "intro">
+        <div class="form-box">
+            <div class="form-value">
+                <form method="post" action="http://127.0.0.1:8000/auth/register" enctype="application/json">
+                    <h2>Привет!</h2>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="text" name="email" required>
+                        <label for="email" >ИИН</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" name="password" required>
+                        <label for="password" value="Submit">Пароль</label>
+                    </div>
+                    <button type="submit" value="Submit">Регистрация</button>
+                    <div class="register">
+                        <p>Есть аккаунт? <a href="/login">Войти</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="./static/js/auth/entity.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./static/js/three.min.js"></script>
+    <script src="./static/js/vanta.net.min.js"></script>
+    <script src="./static/js/green_net.js"></script>
+</body>
+</html>

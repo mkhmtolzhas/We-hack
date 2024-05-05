@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/style/index.css">
+    <script src="./static/js/three.min.js"></script>
+    <script src="./static/js/vanta.net.min.js"></script>
+    <script src="./static/js/green_net.js"></script>
+    <title>FastGov.</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">FastGov.</a>
+        <nav class="navbar">
+            <a href="#" class="active">Начать</a>
+            <a href="" class="">Серсвисы</a>
+            <a href="#contacts" class="">Конакты</a>
+        </nav>
+
+        <a href="#" class="btn" id="openModalBtn">Войти</a>
+
+    </header>
+
+    <section class="home" id="intro">
+        <div class="home-content">
+            <h1>Все</h1>
+            <h1>Для Вашего</h1>
+            <h1>Удобства</h1>
+
+            <p>
+                Мы - ваш надежный партнер в быстром и удобном доступе к государственным услугам. Современная жизнь требует эффективности, и мы здесь, чтобы обеспечить вас самыми современными и простыми в использовании инструментами для получения всех необходимых вам услуг.
+            </p>
+            <div class="btn-box">
+                <a href="/register" class="btn">Войти</a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id = "contacts">
+        <div class="sections">
+            <h5>ДЛЯ КЛИЕНТОВ</h5>
+            <li>
+                <a href="about.html">Про нас</a>
+            </li>
+            <li>
+                <a href="">Сервисы</a>
+            </li>
+            <li>
+                <a href="tours.html">API</a>
+            </li>
+        </div>
+        <div class="sections">
+            <h5>ДЛЯ БИЗНЕСОВ</h5>
+            <li>
+                <a href="/login">Войти</a>
+            </li>
+            <li>
+                <a href="">Сделать донат</a>
+            </li>
+            <li>
+                <a href="tel:+77767301903">Номер телефона</a>
+            </li>
+        </div>
+        <div class="sections">
+            <h5>МЫ В СОЦ.СЕТЯХ</h5>
+            <div class="socials">
+                <a target="_blank" href="https://www.instagram.com/mkhmtlzhs/"><img src="./static/icons/Instagram.svg" alt="Instagram"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/olzhas-makhmet-6793332a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><img src="./static/icons/LinkedIn.svg" alt="LinkedIn"></a>
+                <a target="_blank" href="https://t.me/mkhmtcore"><img src="./static/icons/Telegram.svg" alt="Telegram"></a>
+                <a target="_blank" href="https://github.com/mkhmtolzhas"><img src="./static/icons/GitHub.svg" alt="GitHub"></a>
+            </div>
+        </div>
+    </footer>
+    <div id="myModal" class="modal">
+        <div class="modal-content" id="close-login">
+            <div class="form-box">
+                <div class="form-value">
+                    <form action="">
+                        <h2>Login</h2>
+                        <div class="inputbox" method="post" action="http://127.0.0.1:8000/auth/jwt/login" enctype="application/json">
+                            <ion-icon name="mail-outline"></ion-icon>
+                            <input type="text" id="username" name="username" required>
+                            <label for="username" >ИИН</label>
+                        </div>
+                        <div class="inputbox">
+                            <ion-icon name="lock-closed-outline"></ion-icon>
+                            <input type="password" id="password" name="password" required>
+                            <label for="password">Пароль</label>
+                        </div>
+                        <!-- <div class="forget">
+                            <label for=""><input type="checkbox">Remember Me</label>
+                        </div> -->
+                        <button type="submit" value="Submit">Войти</button>
+                        <div class="register">
+                            <p>Нету аккаунта? <a href="/register">Создайте</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./static/js/modal.js"></script>
+    <script src="./static/js/three.min.js"></script>
+    <script src="./static/js/vanta.net.min.js"></script>
+    <script src="./static/js/green_net.js"></script>
+    <script src="./static/js/auth/auth.js"></script>
+</body>
+</html>

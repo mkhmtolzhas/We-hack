@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/style/login.css">
+    <link rel="icon" href="./icons/airplane-outline.svg" type="image/x-icon">
+    <title>Gowey.</title>
+</head>
+<body>
+    <section id = "intro">
+        <div class="form-box">
+            <div class="form-value">
+                <form action="">
+                    <h2>Login</h2>
+                    <div class="inputbox" method="post" action="http://127.0.0.1:8000/auth/jwt/login" enctype="application/json">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="text" id="username" name="username" required>
+                        <label for="username" >ИИН</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" id="password" name="password" required>
+                        <label for="password">Пароль</label>
+                    </div>
+                    <!-- <div class="forget">
+                        <label for=""><input type="checkbox">Remember Me</label>
+                    </div> -->
+                    <button type="submit" value="Submit">Войти</button>
+                    <div class="register">
+                        <p>Нету аккаунта? <a href="/register">Создайте</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./static/js/three.min.js"></script>
+    <script src="./static/js/vanta.net.min.js"></script>
+    <script src="./static/js/green_net.js"></script>
+    <script src="./static/js/auth/auth.js"></script>
+</body>
+</html>

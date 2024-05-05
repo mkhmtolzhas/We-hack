@@ -1,0 +1,230 @@
+[
+    {
+        "link": "http://egov.kz/cms/ru/services/communications/bron_con",
+        "servise": "Бронирование очереди в ЦОН"
+    },
+    {
+        "link": "https://egov.kz/cms/ru/services/for_citizen/pass_cloud_remoteEDS",
+        "servise": "Получение ЭЦП удаленно"
+    },
+    {
+        "link": "https://egov.kz/cms/ru/services/vehicle/pass_sr19",
+        "servise": "Поиск наличия залога движимого имущества"
+    },
+    {
+        "link": "https://egov.kz/cms/ru/services/passRCA",
+        "servise": "Архивные сведения адресов по РКА"
+    },
+    {
+        "link": "http://egov.kz/services/SR.05/",
+        "servise": "Проверка услуг, полученных через портал эл. правительства или в НАО ГК"
+    },
+    {
+        "link": "https://egov.kz/cms/ru/services/pass_sr11",
+        "servise": "Сервис получения справок третьими лицами"
+    },
+    {
+        "link": "https://egov.kz/cms/ru/services/taxation/oplatanalogi",
+        "servise": "Просмотр и оплата предстоящих налоговых платежей физических лиц"
+    },
+    {
+        "link": "https://astanahub.com/ru/l/gup-grant-programs",
+        "servise": "Инновационные гранты для консорциумов"
+    },
+    {
+        "link": "/cms/ru/services/e_004",
+        "servise": "Справка о несудимости"
+    },
+    {
+        "link": "/cms/ru/services/pass077_mu_ul",
+        "servise": "Предоставление сведений об отсутствии (наличии) недвижимого имущества для юридических лиц"
+    },
+    {
+        "link": "/cms/ru/services/pass111_enpf",
+        "servise": "Информация о начислениях ЕНПФ"
+    },
+    {
+        "link": "/cms/ru/services/e_032",
+        "servise": "Предоставление сведений о зарегистрированном юридическом лице, филиале или представительстве"
+    },
+    {
+        "link": "/cms/ru/services/e_033",
+        "servise": "Предоставление сведений о наличии филиалов и представительств юридического лица"
+    },
+    {
+        "link": "/cms/ru/services/e_034",
+        "servise": "Предоставление сведений об участии юридического лица в других юридических лицах"
+    },
+    {
+        "link": "/cms/ru/services/e_053",
+        "servise": "Получение справки о признании юридического лица бездействующим юридическим лицом или причастности его участников к бездействующим юридическим лицам"
+    },
+    {
+        "link": "/cms/ru/services/e_080",
+        "servise": "Предоставление сведений о всех регистрационных действиях юридического лица"
+    },
+    {
+        "link": "/cms/ru/services/e_081",
+        "servise": "Предоставление сведений о зарегистрированном юридическом лице на заданную дату"
+    },
+    {
+        "link": "/cms/ru/services/e_082",
+        "servise": "Предоставление сведений о последних внесенных изменениях в учредительные документы"
+    },
+    {
+        "link": "/cms/ru/services/e_083",
+        "servise": "Предоставление сведений о наложенных обременениях (арест) на долю юридического лица"
+    },
+    {
+        "link": "/cms/ru/services/pass077_mu",
+        "servise": "справка Ф-6 (о наличии недвижимости)"
+    },
+    {
+        "link": "/cms/ru/services/pass014_mu",
+        "servise": "Получение свидетельства о рождении ребенка"
+    },
+    {
+        "link": "/cms/ru/services/pass156_mtszn",
+        "servise": "Пособия на рождение ребенка"
+    },
+    {
+        "link": "/cms/ru/services/037pass_mon",
+        "servise": "Постановка на очередь детей дошкольного возраста (до 6 лет) для направления в дошкольные организации"
+    },
+    {
+        "link": "/cms/ru/services/pass160_mtszn",
+        "servise": "Получение справки о пенсионных отчислениях"
+    },
+    {
+        "link": "/cms/ru/services/pass668_mir",
+        "servise": "Справка об уточнении (присвоении/упразднении) адреса недвижимости"
+    },
+    {
+        "link": "/cms/ru/services/pass_sr11",
+        "servise": "Сервис получения справок третьими лицами"
+    },
+    {
+        "link": "/cms/ru/services/pass175_mtszn",
+        "servise": "Выдача справки по назначению АСП"
+    },
+    {
+        "link": "/cms/ru/services/e_084",
+        "servise": "Выдача справки о регистрации юридического лица"
+    },
+    {
+        "link": "http://idp.egov.kz/idp/r?ts=ELICENSE&url=https://elicense.kz",
+        "servise": "Электронное лицензирование"
+    },
+    {
+        "link": "https://cabinet.kgd.gov.kz/knp/main/index",
+        "servise": "Кабинет налогоплательщика"
+    },
+    {
+        "link": "http://idp.egov.kz/idp/r?ts=VS&url=http://office.sud.kz/redirect.xhtml?t=r3",
+        "servise": "Судебный кабинет"
+    },
+    {
+        "link": "https://aisoip.adilet.gov.kz/debtors",
+        "servise": "Должник-взыскатель"
+    },
+    {
+        "link": "https://egov.kz/cms/ru/articles/employment_relations/holidays-calend",
+        "servise": "Календарь мероприятий"
+    },
+    {
+        "link": "https://www.gov.kz/memleket/entities/anticorruption?lang=ru",
+        "servise": "Меры антикоррупционной деятельности"
+    },
+    {
+        "link": "/cms/information/state_agencies/gos_organi",
+        "servise": "Государственные органы РК"
+    },
+    {
+        "link": "/cms/information/state_agencies/ministries_committees",
+        "servise": "Государственные органы РК"
+    },
+    {
+        "link": "https://www.gov.kz/memleket/entities/anticorruption?lang=ru",
+        "servise": "Меры антикоррупционной деятельности"
+    },
+    {
+        "link": "http://zan.gov.kz/client/",
+        "servise": "Законодательство"
+    },
+    {
+        "link": "http://egov.kz/cms/ru/articles/Politika-konfidencialnosti",
+        "servise": "Политика конфиденциальности"
+    },
+    {
+        "link": "http://1414.egov.kz/ru",
+        "servise": "Обратная связь"
+    },
+    {
+        "link": "/cms/ru/sitemap",
+        "servise": "Карта сайта"
+    },
+    {
+        "link": "/cms/services/psc_bron",
+        "servise": "Бронирование очереди"
+    },
+    {
+        "link": "https://gov4c.kz/contacts/kontaktnaya-informatsiya/",
+        "servise": "Контакты"
+    },
+    {
+        "link": "/cms/psc-services",
+        "servise": "Перечень услуг"
+    },
+    {
+        "link": "/cms/ru/law",
+        "servise": "Законодательство"
+    },
+    {
+        "link": "http://egov.kz/cms/ru/articles/Politika-konfidencialnosti",
+        "servise": "Политика конфиденциальности"
+    },
+    {
+        "link": "http://1414.egov.kz/ru",
+        "servise": "Обратная связь"
+    },
+    {
+        "link": "/cms/ru/sitemap",
+        "servise": "Карта сайта"
+    },
+    {
+        "link": "https://www.facebook.com/egovkz",
+        "servise": ""
+    },
+    {
+        "link": "http://vk.com/egovkz",
+        "servise": ""
+    },
+    {
+        "link": "https://www.youtube.com/channel/UCQjXqpShDB-IFgs3ejps5bg",
+        "servise": ""
+    },
+    {
+        "link": "https://www.instagram.com/egov.kz/",
+        "servise": ""
+    },
+    {
+        "link": "https://www.facebook.com/egovkz",
+        "servise": ""
+    },
+    {
+        "link": "http://vk.com/egovkz",
+        "servise": ""
+    },
+    {
+        "link": "https://www.youtube.com/channel/UCQjXqpShDB-IFgs3ejps5bg",
+        "servise": ""
+    },
+    {
+        "link": "https://www.instagram.com/egov.kz/",
+        "servise": ""
+    },
+    {
+        "link": "/cms/ru/information/about/help-elektronnoe-pravitelstvo",
+        "servise": "О портале"
+    }
+]
