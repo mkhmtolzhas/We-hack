@@ -16,7 +16,7 @@ document.querySelector('form').addEventListener('submit', async (event) => {
         if (response.ok) {
             console.log(response.blob());
             localStorage.setItem('jwtToken', new URLSearchParams(formData).toString());
-            window.location.href = '/';
+            window.location.href = '/protected-main';
         } else {
             // Если ответ не успешный, обрабатываем ошибку
             console.error('Ошибка при отправке данных:', response.status);
